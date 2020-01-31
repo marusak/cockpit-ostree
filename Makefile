@@ -22,7 +22,7 @@ all: $(WEBPACK_TEST)
 
 LINGUAS=$(basename $(notdir $(wildcard po/*.po)))
 WEBLATE_REPO=tmp/weblate-repo
-WEBLATE_REPO_URL=https://github.com/cockpit-project/cockpit-ostree-weblate.git
+WEBLATE_REPO_URL=https://github.com/marusak/cockpit-ostree-weblate.git
 WEBLATE_REPO_BRANCH=master
 
 po/POTFILES.js.in:
